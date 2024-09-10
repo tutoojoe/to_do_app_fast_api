@@ -27,7 +27,7 @@ services:
 
   fastapi:
     build:
-      context: ./to_do_app_fast_api 
+      context: ./fastapi_app 
       dockerfile: Dockerfile
     ports:
       - "8800:8800"
